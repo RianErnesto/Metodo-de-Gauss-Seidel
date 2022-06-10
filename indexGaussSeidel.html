@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gauss-Seidel</title>
+        <link href="styleGaussSeidel.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="principal">
+        <h1>
+            Método de Gauss-Seidel
+        </h1>
+        <label>
+            Ordem do Sistema:
+            <input type="number" id="incognita">
+        </label>
+        <label>
+            Tolerância:
+            <input type="number" id="tolerancia">
+        </label> <br>
+        <label>
+            Casas Decimais: 
+            <input type="number" id="decimal">
+        </label> <br>
+        <label>
+            <input type="checkbox" id="entrada"> Alguma entrada inicial?
+        </label> <br>
+        <button id="confirmar" onclick="criarInput()">Confirmar</button>
+        <div id="box"></div>
+        </div>
+    </body>
+    <script src="scriptGaussSeidel.js"></script>
+</html>
